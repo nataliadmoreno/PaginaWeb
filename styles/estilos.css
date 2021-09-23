@@ -29,3 +29,18 @@ body {
     cursor: pointer;
     transform: scale(1.1);
 }
+
+.secondaryButton {
+    background-color: #00C6F7;
+    color: white;
+    border: 1px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 2px 2px blue;
+}
+
+.secondaryButton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
