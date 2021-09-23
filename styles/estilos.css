@@ -15,32 +15,26 @@ body {
     margin: 0px;
 }
 
-.mainButton {
-    background-color: #92C43C;
-    color: white;
+.button {
     border: 1px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-    box-shadow: 2px 2px green;
 }
 
-.mainButton:hover {
+.button:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.mainButton {
+    background-color: #92C43C;
+    color: white;
+    box-shadow: 2px 2px green;
 }
 
 .secondaryButton {
     background-color: #00C6F7;
     color: white;
-    border: 1px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
     box-shadow: 2px 2px blue;
-}
-
-.secondaryButton:hover {
-    cursor: pointer;
-    transform: scale(1.1);
 }
