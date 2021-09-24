@@ -72,3 +72,24 @@ body {
 .iconoBusqueda:hover {
     color: orange;
 }
+
+.contenedorImagen {
+    width: 240px;
+    height: 350px;
+    display: flex;
+
+}
+
+.contenedorImagen > img {
+    /* El object fit solo funciona si el padre tiene display flex */
+    object-fit: cover;
+    width: 100%;
+}
+
+.breedCardContainer {
+    display: flex;
+}
+
+.breedCard {
+    margin: 10px;
+}
