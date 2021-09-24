@@ -77,13 +77,15 @@ body {
     width: 240px;
     height: 350px;
     display: flex;
-
+    margin-bottom: 10px;
 }
 
 .contenedorImagen > img {
     /* El object fit solo funciona si el padre tiene display flex */
     object-fit: cover;
     width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .breedCardContainer {
@@ -92,4 +94,20 @@ body {
 
 .breedCard {
     margin: 10px;
+    background-color: rgb(78, 78, 90);
+    box-shadow: 5px 10px 5px rgb(228, 224, 224);
+    border-radius: 10px;
+}
+
+.contenedorImagen:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.breedTitle {
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
+
 }
