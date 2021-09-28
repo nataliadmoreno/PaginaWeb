@@ -7,20 +7,23 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import Layout from 'layouts/Layout';
 
 
 function App() {
   return (
     <div className="App">
         <Router>
+          <Layout>
             <Switch>
-                <Route path="/rhodesian"  >
+                <Route path="/rhodesian">
                     <RhodesianInfoPage/>
                 </Route>
-                <Route path="/"  >
+                <Route path="/">
                     <Index/>
                 </Route>
             </Switch>
+          </Layout>
         </Router>
     </div>
   );

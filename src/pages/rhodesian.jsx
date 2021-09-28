@@ -1,6 +1,8 @@
+
+
 function RhodesianInfoPage() {
     return (
-        <div>Esta es la pagina de info del rhodesian</div>
+            <div>Esta es la pagina web con informacion del rhodesian</div>
     )
 }
 
